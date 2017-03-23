@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="inotifytest_2.11"
+		revision="1.0"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170321120605"/>
+	<dependencies>
+		<module organisation="com.github.pathikrit" name="better-files-akka_2.11">
+			<revision name="2.17.1" status="release" pubdate="20170113044546" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/pathikrit/better-files" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="MIT" url="https://github.com/pathikrit/better-files/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3484" time="0" location="/home/venkat/.ivy2/cache/com.github.pathikrit/better-files-akka_2.11/ivy-2.17.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/pathikrit/better-files-akka_2.11/2.17.1/better-files-akka_2.11-2.17.1.pom"/>
+				<caller organisation="default" name="inotifytest_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.17.1" rev-constraint-default="2.17.1" rev-constraint-dynamic="2.17.1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="better-files-akka_2.11" type="jar" ext="jar" status="no" details="" size="24992" time="0" location="/home/venkat/.ivy2/cache/com.github.pathikrit/better-files-akka_2.11/jars/better-files-akka_2.11-2.17.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/pathikrit/better-files-akka_2.11/2.17.1/better-files-akka_2.11-2.17.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
+			<revision name="2.3.15" status="release" pubdate="20160401121301" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2793" time="0" location="/home/venkat/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.3.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.15/akka-actor_2.11-2.3.15.pom"/>
+				<caller organisation="com.github.pathikrit" name="better-files-akka_2.11" conf="default, compile, runtime, master" rev="2.3.15" rev-constraint-default="2.3.15" rev-constraint-dynamic="2.3.15" callerrev="2.17.1"/>
+				<caller organisation="default" name="inotifytest_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.3.15" rev-constraint-default="2.3.15" rev-constraint-dynamic="2.3.15" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="2794034" time="0" location="/home/venkat/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.15.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.15/akka-actor_2.11-2.3.15.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.2.1" status="release" pubdate="20140502202416" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2734" time="0" location="/home/venkat/.ivy2/cache/com.typesafe/config/ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.11" conf="compile, runtime" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="2.3.15"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="219554" time="0" location="/home/venkat/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.pathikrit" name="better-files_2.11">
+			<revision name="2.17.1" status="release" pubdate="20170113044548" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/pathikrit/better-files" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="MIT" url="https://github.com/pathikrit/better-files/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3165" time="0" location="/home/venkat/.ivy2/cache/com.github.pathikrit/better-files_2.11/ivy-2.17.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/pathikrit/better-files_2.11/2.17.1/better-files_2.11-2.17.1.pom"/>
+				<caller organisation="com.github.pathikrit" name="better-files-akka_2.11" conf="default, compile, runtime, master" rev="2.17.1" rev-constraint-default="2.17.1" rev-constraint-dynamic="2.17.1" callerrev="2.17.1"/>
+				<artifacts>
+					<artifact name="better-files_2.11" type="jar" ext="jar" status="no" details="" size="198002" time="0" location="/home/venkat/.ivy2/cache/com.github.pathikrit/better-files_2.11/jars/better-files_2.11-2.17.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/pathikrit/better-files_2.11/2.17.1/better-files_2.11-2.17.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160304205633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/venkat/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.3.15"/>
+				<caller organisation="com.github.pathikrit" name="better-files_2.11" conf="compile, runtime" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.17.1"/>
+				<caller organisation="com.github.pathikrit" name="better-files-akka_2.11" conf="default, compile, runtime, master" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="2.17.1"/>
+				<caller organisation="default" name="inotifytest_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5744974" time="0" location="/home/venkat/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

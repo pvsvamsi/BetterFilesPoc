@@ -1,0 +1,59 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/venkat/Downloads/iNotifyTest/src/main/scala/FileWatchers.scala, /home/venkat/Downloads/iNotifyTest/src/main/scala/Watcher.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/venkat/Downloads/iNotifyTest/src/main/scala/FileWatchers.scala, /home/venkat/Downloads/iNotifyTest/src/main/scala/Watcher.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/venkat/Downloads/iNotifyTest/src/main/scala/FileWatchers.scala, /home/venkat/Downloads/iNotifyTest/src/main/scala/Watcher.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/venkat/Downloads/iNotifyTest/src/main/scala/FileWatchers.scala, /home/venkat/Downloads/iNotifyTest/src/main/scala/Watcher.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 2 Scala sources to /home/venkat/Downloads/iNotifyTest/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 6e65ae5c, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-7-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-7-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-7-oracle/jre/classes:/home/venkat/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/venkat/Downloads/iNotifyTest/target/scala-2.11/classes:/home/venkat/Downloads/iNotifyTest/lib/inotify-java-2.1.jar:/home/venkat/Downloads/iNotifyTest/lib/libinotify-java.so[0m
+[0m[[31merror[0m] [0m/home/venkat/Downloads/iNotifyTest/src/main/scala/FileWatchers.scala:48: object BufferedRecursiveWatcher is not a member of package com.den_4.inotify_java[0m
+[0m[[31merror[0m] [0m  import com.den_4.inotify_java.{BufferedRecursiveWatcher, EventQueueFull, InotifyEvent, InotifyEventListener}[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m/home/venkat/Downloads/iNotifyTest/src/main/scala/FileWatchers.scala:109: not found: type BufferedRecursiveWatcher[0m
+[0m[[31merror[0m] [0m      val watcher = new BufferedRecursiveWatcher(true, 200, false)[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/home/venkat/Downloads/iNotifyTest/src/main/scala/FileWatchers.scala:146: not found: type BufferedRecursiveWatcher[0m
+[0m[[31merror[0m] [0m  private var watchmap: Map[String, BufferedRecursiveWatcher] = Map.empty[String, BufferedRecursiveWatcher][0m
+[0m[[31merror[0m] [0m                                    ^[0m
+[0m[[31merror[0m] [0m/home/venkat/Downloads/iNotifyTest/src/main/scala/FileWatchers.scala:47: object Event is not a member of package com.den_4.inotify_java.enums[0m
+[0m[[31merror[0m] [0m  import com.den_4.inotify_java.enums.Event[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m/home/venkat/Downloads/iNotifyTest/src/main/scala/FileWatchers.scala:51: not found: type InotifyEventListener[0m
+[0m[[31merror[0m] [0m  protected class InotifyListenerImpl  extends InotifyEventListener {[0m
+[0m[[31merror[0m] [0m                                               ^[0m
+[0m[[31merror[0m] [0m/home/venkat/Downloads/iNotifyTest/src/main/scala/FileWatchers.scala:68: not found: type InotifyEvent[0m
+[0m[[31merror[0m] [0m    def filesystemEventOccurred(e: InotifyEvent): Unit = {[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0m/home/venkat/Downloads/iNotifyTest/src/main/scala/FileWatchers.scala:101: not found: type EventQueueFull[0m
+[0m[[31merror[0m] [0m    def queueFull(e: EventQueueFull) = {[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0m/home/venkat/Downloads/iNotifyTest/src/main/scala/FileWatchers.scala:130: value stop is not a member of Any[0m
+[0m[[31merror[0m] [0m          watcher.stop()[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/home/venkat/Downloads/iNotifyTest/src/main/scala/FileWatchers.scala:131: value removeRecursiveWatch is not a member of Any[0m
+[0m[[31merror[0m] [0m          watcher.removeRecursiveWatch(path)[0m
+[0m[[31merror[0m] [0m                  ^[0m
+[0m[[31merror[0m] [0m/home/venkat/Downloads/iNotifyTest/src/main/scala/FileWatchers.scala:146: not found: type BufferedRecursiveWatcher[0m
+[0m[[31merror[0m] [0m  private var watchmap: Map[String, BufferedRecursiveWatcher] = Map.empty[String, BufferedRecursiveWatcher][0m
+[0m[[31merror[0m] [0m                                                                                  ^[0m
+[0m[[31merror[0m] [0m10 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m
